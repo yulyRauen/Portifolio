@@ -249,9 +249,8 @@ section {
   justify-content: center;
   align-items: center;
   background-color: var(--main-color);
-  height: 400px;
+  height: 310px;
   border-radius: 3rem;
-  cursor: pointer;
   border: 5px solid transparent;
   transition: 0.4s ease-in-out;
 }
@@ -274,18 +273,34 @@ section {
 
 .service-info i {
   font-size: 8rem;
+  transition: 0.3s;
+}
+
+.service-info:hover i {
+  font-size: 6rem;
 }
 
 .service-info h4 {
   font-size: 4rem;
   margin: 2rem 0;
   font-weight: 800;
+  transition: 0.3s;
+}
+
+.service-info:hover h4 {
+  font-size: 3rem;
 }
 
 .service-info p {
   font-size: 1.4rem;
   font-weight: 600;
   line-height: 1.7;
+  display: none;
+  transition: 0.3s;
+}
+
+.service-info:hover p {
+  display: block;
 }
 
 .contact {
