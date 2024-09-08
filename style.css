@@ -186,7 +186,7 @@ section {
   justify-content: center;
   align-items: center;
   gap: 10rem;
-  background-color: var(--second-bg-color);
+  background-color: var(--bg-color);
 }
 
 .about-img img {
@@ -248,18 +248,19 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--main-color);
+  background-color: black;
+  color: var(--main-color);
   height: 310px;
   border-radius: 3rem;
-  border: 5px solid transparent;
-  transition: 0.4s ease-in-out;
+  border: 1px solid gray;
+  transition: 0.6s ease-in-out;
 }
 
 .service-box:hover {
   background-color: black;
   color: var(--main-color);
-  border: 5px solid var(--main-color);
-  transform: scale(1.03);
+  border: 1.5px solid var(--main-color);
+  transform: scale(1.02);
 }
 
 .service-info {
@@ -273,7 +274,7 @@ section {
 
 .service-info i {
   font-size: 8rem;
-  transition: 0.3s;
+  transition: 0.6s;
 }
 
 .service-info:hover i {
@@ -284,7 +285,7 @@ section {
   font-size: 4rem;
   margin: 2rem 0;
   font-weight: 800;
-  transition: 0.3s;
+  transition: 0.6s;
 }
 
 .service-info:hover h4 {
@@ -293,7 +294,6 @@ section {
 
 .service-info p {
   font-size: 1.4rem;
-  font-weight: 600;
   line-height: 1.7;
   display: none;
   transition: 0.3s;
@@ -304,7 +304,7 @@ section {
 }
 
 .contact {
-  background-color: var(--second-bg-color);
+  background-color: var(--bg-color);
 }
 
 .contact h2 {
