@@ -15,10 +15,10 @@ html {
 }
 
 :root {
-  --bg-color: #080808;
+  --bg-color: #03000e;
   --second-bg-color: #001005;
   --text-color: white;
-  --main-color: rgb(34, 87, 233);
+  --main-color: rgb(134, 14, 94);
 }
 
 body {
@@ -289,7 +289,7 @@ section {
 }
 
 .service-info:hover h4 {
-  font-size: 3rem;
+  font-size: 3.8rem;
 }
 
 .service-info p {
